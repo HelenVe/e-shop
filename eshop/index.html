@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Eshop Home</title>
+	<link rel ="stylesheet"  href="css/stylesheet.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="main">
+	<div class="topbar"></div>
+	<div class="social_icons">
+		<div class="container">
+			<div class="icon">
+				<a href="https://facebook.com" class="fa fa-facebook"></a>
+				<a href="https://twitter.com" class="fa fa-twitter"></a>
+				<a href="https://instagram.com" class="fa fa-instagram"></a>
+			</div>
+			<div class="header-right">
+				<div class="login_register_btn" onclick="open_login()">
+					<a href="#">Login</a>
+					<a href= "#">/Register</a>
+				</div>
+
+				<div class="cart_btn" onclick="open_cart()">
+					<img src="images/cart.png">
+					<span>Cart</span>
+
+				</div>
+
+			</div>	
+		</div>
+	</div>
+
+	<div class="header" id="header">
+		<div class="container">
+			<div class="navbar">
+				<a href="index.html">HOME</a>
+			
+				<div class="dropdown">
+					<button class="dropbtn">WOMEN</button>
+					<div class="dropdown-content">
+						<a href = "shirts.html">SHIRTS</a>
+						<a href = "trousers.html">TROUSERS</a>
+						<a href = "shoes.html">SHOES</a>
+					</div>
+				</div>
+
+				<a href="about.html">ABOUT US</a>
+	
+			</div>
+		</div>
+	</div>
+
+	<div class="slider">
+		<div class="container">
+			<div class = "slideshow">
+				<!-- <img src="images/shoes1.jpg"> -->
+				<img src="images/new1.jpg">
+				<img src="images/new2.jpg"> 
+			</div>
+
+			<div class="center">
+				<a href="#"id="next"><img src="images/arrow_right.png"></a>
+				<a href="#"id="prev"><img src="images/arrow_left.png"></a> 
+			</div>			
+		</div>
+	</div>
+
+	<div class="welcome_text">
+		<div class="container"> 
+			<h1>Welcome to our website! Check the latest fashion trends!</h1>
+		</div>
+	</div>
+
+	<div class="event_section">
+		<div class="container">
+			<div class="event_one">
+				<h3> Check out the new arrivals! </h3>
+				<p>New clothes every 2 weeks</p>
+			</div>
+
+			<div class="event_two">
+				<h3> Free delivery!</h3>
+				<p>For orders over 50$</p>
+			</div>
+
+			<div class="event_three">
+				<h3> Find the best gifts! </h3>
+				<p>Get a gift card</p>
+			</div>
+		</div>
+	</div>
+
+<div class="product">
+	<div class="container">
+		<div class="product_section_title">NEW ARRIVALS</div>
+		<div class="product_one">
+			<div class="product_img">
+				<img src="images/product_one.png">
+			</div>
+
+			<div class="product_text">
+				<h4>Jacket<i> by Artist </i></h4>
+			</div>
+
+			<div class="star_rating">
+				<img src="images/star_icon.png">
+				<img src="images/star_icon.png">
+				<img src="images/star_icon.png">
+				<img src="images/star_icon.png">
+			</div>
+
+			<div class="product_desc">
+				<b>White cozy jacket with a brand new pattern!</b>
+			</div>
+
+			<div class="product_price">
+				<div class="price">
+					14.99$
+				</div>
+
+				<div class = "button">
+					ADD TO CART 	
+				</div>
+			</div>
+		</div>
+
+		<div class="product_one product_two ">
+			<div class="product_img">
+				<img src="images/product_two.png">
+			</div>
+
+			<div class="product_text">
+				<h4>Dress with Fur <i> by Artist </i></h4>
+			</div>
+
+			<div class="star_rating">
+				<img src="images/star_icon.png">
+				<img src="images/star_icon.png">
+				<img src="images/star_icon.png">
+			</div>
+
+			<div class="product_desc">
+				<b>Elastic dress with feathers and faux fur</b>
+			</div>
+
+			<div class="product_price">
+				<div class="price">
+					14.99$
+				</div>
+				
+				<div class = "button">
+					ADD TO CART 	
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="product_one product_three">
+			<div class="product_img">
+				<img src="images/product_three.png">
+			</div>
+
+			<div class="product_text">
+				<h4>Sweater <i> by Artist </i></h4>
+			</div>
+
+			<div class="star_rating">
+				<img src="images/star_icon.png">
+				<img src="images/star_icon.png">
+				
+			</div>
+
+			<div class="product_desc">
+				<b>Linen sweater with long sleeves in gray.</b> 
+			</div>
+
+			<div class="product_price">
+				<div class="price">
+					14.99$
+				</div>
+				
+				<div class = "button">
+					ADD TO CART 	
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer" id="footer">
+		<div class="container">
+			<div class="column3">
+				<h4>About Us</h4>
+				<p>We are undergraduate students
+				at the University of Thessaly, in
+				particular in the department of
+				Electrical and Computer Engineering.</p>
+				<h4>Follow us on social media!</h4>
+				<p> <img src="images/facebook_icon.png">
+					<img src="images/twitter_icon.png">
+					<img src="images/instagram_icon.png">
+				</p>
+			</div>
+
+			<div class="column3 second-column">
+				<h4>Location</h4>
+				<div class="mapouter">
+					<div class="gmap_canvas">
+						<iframe width="201" height="159" id="gmap_canvas" src="https://maps.google.com/maps?q=volos&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+						</iframe>
+					</div>
+				</div>
+			</div>
+
+			<div class="column3 third-column">
+				<h4>Contact Us</h4>
+				<p> We provide 24hr phone support </p>
+				<br>
+				<div class="contact_icons">
+					<img src="images/phone_icon.png">	<span>+24210 56666 </span>
+					<br><br>
+					<img src="images/email_icon.png">	<span>eshop@gmail.com </span>
+				</div>		
+			</div>
+
+		</div>
+	</div>
+
+
+
+	<div class="bottom">
+	<div class="container">
+			<div class="bottom_nav_bar">
+				<a href="index.html">Home</a>
+				<a href="#">Women</a>
+				<a href="about.html">About Us</a>
+			</div>
+			<div class="copyrights">
+				©2019 All Rights Reserved
+				<!-- <p>©2019 Store by Helen & Olympia | All Rights Reserved</p> -->
+			</div>
+		</div>
+	</div>
+
+
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="js/jquery.cycle.all.js"></script>
+
+<script> 
+	$('.slidehow').cycle({
+		next: '#next' 
+		prev: '#prev'
+	});
+</script>
+
+</body>
+</html>
